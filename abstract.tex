@@ -4,10 +4,11 @@
 % -------- figure --------
 % \usepackage{graphicx}
 % \usepackage{color}
+\usepackage[style=ieee]{biblatex}
+\addbibresource{reference.bib}
 
 \renewcommand\tablename{表}
 \renewcommand\figurename{図}
-\renewcommand\refname{参考文献}
 
 \newtheorem{theorem}{定理}
 \newtheorem{definition}{定義}
@@ -60,9 +61,7 @@
 %   \label{fig:figure1}
 % \end{figure}
 
-% ----- bibliography -----
-% \bibliographystyle{IEEEtran}
-% \bibliography{paper}
+\printbibliography[title={参考文献}]
 
 \vspace{-0.2mm}
 \end{document}

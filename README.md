@@ -3,6 +3,8 @@
 ## Requirement
 
 - LuaLaTeX
+- Biber
+- BibLaTeX
 - Latexmk
 
 ## License
